@@ -1,6 +1,9 @@
 import "./App.css"
 import { useState } from 'react';
 
+import centralMusicLogo from "./assets/logo.svg"
+import menuIcon from "./assets/menu.svg"
+
 import ProductCard from "./components/ProductCard"
 import ArticleCard from "./components/ArticleCard"
 
@@ -11,7 +14,7 @@ import articles from "./assets/articles"
 const App = () => {
   return <main>
     <nav>
-      <img src="/src/assets/logo.svg" alt="logo" />
+      <img src={centralMusicLogo} alt="logo" />
       <Menu />
     </nav>
 
@@ -76,7 +79,7 @@ const App = () => {
           <li><a href="https://github.com/MichoDN/React-LandingPage-CentralMusic" target="_blanc">Code</a></li>
         </ul>
 
-        <img src="/src/assets/logo.svg" alt="" />
+        <img src={centralMusicLogo} alt="" />
       </div>
 
       <div className="bottom">
@@ -98,7 +101,7 @@ const Menu = () => {
 
   return <>
     <button style={{ background: "none" }} onClick={openMenu} >
-      <img src="/src/assets/menu.svg" alt="Menu Icon" />
+      <img src={menuIcon} alt="Menu Icon" />
     </button>
 
     <div

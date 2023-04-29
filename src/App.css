@@ -31,7 +31,7 @@ main>section {
 }
 
 .hero {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #050e1d 73.96%), url("./assets/img/hero.svg");
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #050e1d 73.96%), url("./assets/img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% -2px;
@@ -52,7 +52,7 @@ main>section {
 }
 
 .hero>.guitarLessons {
-  background-image: url("./assets/img/guitarLessons.svg");
+  background-image: url("./assets/img/guitarLessons.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

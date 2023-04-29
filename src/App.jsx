@@ -1,8 +1,8 @@
 import "./App.css"
 import { useState } from 'react';
 
-import centralMusicLogo from "./assets/logo.jpg"
-import menuIcon from "./assets/menu.jpg"
+import centralMusicLogo from "./assets/logo.svg"
+import menuIcon from "./assets/menu.svg"
 
 import ProductCard from "./components/ProductCard"
 import ArticleCard from "./components/ArticleCard"

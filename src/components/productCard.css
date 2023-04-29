@@ -1,0 +1,43 @@
+@import url("../index.css");
+
+.productCard{
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 4px rgba(28, 5, 77, 0.1)) drop-shadow(0px 12px 32px rgba(0, 0, 0, 0.05))
+}
+
+.productCard>.imageContainer{
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  height: 230px;
+}
+
+.productCard>.imageContainer>img{
+  position: relative;
+  width: 100%;
+  max-width: 314px;
+  top: -30px;
+}
+
+.productCard>.info{
+  padding: 10px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  height: 127px;
+}
+
+.productCard>.info>div{
+  display: flex;
+  justify-content: space-between;
+}
+.productCard>.info>.description{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: var(--textDisabled);
+}

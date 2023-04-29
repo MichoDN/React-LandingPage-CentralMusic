@@ -1,7 +1,7 @@
-import guitarRed from "./guitarRed.svg"
-import guitarBrown from "./guitarBrown.svg"
-import guitarOrange from "./guitarOrange.svg"
-import guitarGold from "./guitarGold.svg"
+import guitarRed from "./guitarRed.png"
+import guitarBrown from "./guitarBrown.png"
+import guitarOrange from "./guitarOrange.png"
+import guitarGold from "./guitarGold.png"
 
 const products = [{
   name: "Red Guitar",

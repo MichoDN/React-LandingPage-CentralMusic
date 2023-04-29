@@ -1,7 +1,7 @@
-import guitarStrings from "./guitarStrings.svg"
-import originalCable from "./originalCable.svg"
-import deluxeCable from "./deluxeCable.svg"
-import pedal from "./pedal.svg"
+import guitarStrings from "./guitarStrings.png"
+import originalCable from "./originalCable.png"
+import deluxeCable from "./deluxeCable.png"
+import pedal from "./pedal.png"
 
 const popularFinds = [{
   name: "Guitar Strings",
